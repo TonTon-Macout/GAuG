@@ -116,5 +116,5 @@ function testJS() {
 )rawliteral";
 
 ```
-+ в буилдер добавить виджет b.HTML("", R"raw(<button  type="button"  onclick="testJS()">press</button>)raw");
++ в буилдер добавить виджет ```b.HTML("", R"raw(<button  type="button"  onclick="testJS()">press</button>)raw");```
 + наслаждаться 
