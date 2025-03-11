@@ -5,7 +5,7 @@
 ![Снимок экрана 2025-03-09 141451](https://github.com/user-attachments/assets/443cfef6-c86f-4e84-941e-1d0f49dd5cb6)
 
 # Инструкция по добавлению JavaScript в Settings v1.3.1 
-+ в файле библиотеки Settings\src\web\settings.h заменить массив const uint8_t settings_index_gz[] PROGMEM = на
++ в файле библиотеки Settings\src\web\settings.h заменить массив const uint8_t settings_index_gz[]  на
 
 ```
 const uint8_t settings_index_gz[] PROGMEM = {
