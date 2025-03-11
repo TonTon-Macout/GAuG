@@ -57,9 +57,9 @@ const uint8_t settings_index_gz[] PROGMEM = {
 #include <Arduino.h>
 
 const char  mystyle[] PROGMEM = R"rawliteral(
-@import url('https://fonts.googleapis.com/css2?family=Micro+5+Charted&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
  .nav span {
-  font-family: "Micro 5 Charted", serif;
+    font-family: "Kablammo", Verdana, sans-seri;
  }
 )rawliteral";
 
@@ -89,7 +89,7 @@ function testJS() {
     popup.style.borderRadius = '15px'; // Закругленные углы
 
     // Установка стилей для контента попапа
-    popupContent.textContent = 'розовый поп ап!';
+    popupContent.textContent = 'уууп, вот это дааа!';
 
     // Установка стилей для кнопки закрытия
     closeButton.textContent = 'Закрыть';
